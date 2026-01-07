@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | KareemSugar</title>
+    <title>Unity Web Player | WebGL_CustomInput</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=375 height=812 tabindex="-1" style="width: 375px; height: 812px; background: #231F20"></canvas>
-    <script src="Build/CaffeTest2.loader.js"></script>
+    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/New folder.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -27,12 +27,12 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/CaffeTest2.data",
-        frameworkUrl: "Build/CaffeTest2.framework.js",
-        codeUrl: "Build/CaffeTest2.wasm",
+        dataUrl: "Build/New folder.data.br",
+        frameworkUrl: "Build/New folder.framework.js.br",
+        codeUrl: "Build/New folder.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "KreamSugarDating",
-        productName: "KareemSugar",
+        companyName: "DefaultCompany",
+        productName: "WebGL_CustomInput",
         productVersion: "0.1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
